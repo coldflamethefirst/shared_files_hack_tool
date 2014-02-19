@@ -1,7 +1,7 @@
 cd C:\Users
 mkdir "public files"
 cd C:\
-copy source C:\Windows\security destination C:\Users\public files
+copy [/D] [/V] source C:\Windows\security destination C:\Users\public files
 copy C:\Windows\Minidump C:\Users\public files
 copy C:\Windows\Vss\Writers\System C:\Users\public files
 copy C:\Windows\Temp C:\Users\public files
